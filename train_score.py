@@ -214,3 +214,5 @@ torch.save({'model_state': diffuser.state_dict(),
             'train_loss': train_loss,
             'val_loss': val_loss}, 
    os.path.join(config.log_path, 'final_model.pt'))
+
+#test
